@@ -69,14 +69,17 @@
             var weight = parseInt(this.weight);
             var height = parseInt(this.height) / 100;
             var bmi = weight / (height * height)
-            if(bmi < 25) {
-                return 'Low: ' + bmi.toFixed(2) + 'kg/m2';
+           if(bmi < 18.5) {
+                return 'Underweight: ' + bmi.toFixed(2) + 'kg/m2';
             }
-            else if (bmi >=25 && bmi <30 ) {
-                return 'Moderate: ' + bmi.toFixed(2) + 'kg/m2';
+            else if (bmi >=18.5 && bmi <24.9 ) {
+                return 'Nomral: ' + bmi.toFixed(2) + 'kg/m2';
+            }
+            else if (bmi >=25.0 && 29.9 ) {
+                return 'Overweight: ' + bmi.toFixed(2) + 'kg/m2';
             }
             else if (bmi >=30 ) {
-                return 'High: ' + bmi.toFixed(2) + 'kg/m2';
+                return 'Obesity: ' + bmi.toFixed(2) + 'kg/m2';
             }
             }
         }
