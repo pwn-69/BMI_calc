@@ -18,22 +18,23 @@
         </div>
         <br>
         <div>
-            <b-jumbotron  style="max-width: 50rem;">
-                <template v-slot:header>Created By...</template>
-
-                <template v-slot:lead>
-                    Phyo Wai Nyunt
-                </template>
-
-                <hr class="my-4">
-
-                <p>
-                    Get in touch...
-                </p>
-
-                 <b-button variant="outline-dark" href="https://www.linkedin.com/in/phyo-wai-nyunt-56ba55195/"><b-icon icon="bell"></b-icon></b-button>
-            </b-jumbotron>
-        </div>
+                <b-card bg-variant="dark" text-variant="white" style="width:50%" class="ml-4">
+                    <b-card-header>
+                         <b-avatar size="6rem">
+                             <img src="../assets/pwn.jpg" alt="me" style="width:130px">
+                         </b-avatar>
+                    </b-card-header>
+                    <b-card-text>
+                        <p><strong>Phyo Wai Nyunt</strong></p>
+                        <p><strong>Third Year Computer Science Student</strong></p>
+                    </b-card-text>
+                    <br>
+                    <b-card-text>
+                    <p><strong>Get in touch...</strong></p>
+                    <b-button bg-variant="outline-white" href="https://www.linkedin.com/in/phyo-wai-nyunt-56ba55195/"><b-icon icon="bell"></b-icon></b-button>
+                    </b-card-text>
+                </b-card>
+            </div>
     </div>
 </template>
 
