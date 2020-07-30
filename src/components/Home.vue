@@ -5,6 +5,8 @@
                 <b-dropdown text="BMI">
                     <b-dropdown-item href="#/" >Metric(Default)</b-dropdown-item>
                     <b-dropdown-item href="#/imp">Imperial</b-dropdown-item>
+                    <div class="dropdown-divider"></div>
+                    <b-dropdown-item href="#/help">Need Help?</b-dropdown-item>
                 </b-dropdown>
 
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

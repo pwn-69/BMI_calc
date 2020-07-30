@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import About from '@/components/About'
 import Imperial from '@/components/Imperial'
 import NotFound from '@/components/NotFound'
+import Help from '@/components/Help'
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -29,6 +30,11 @@ export default new Router({
             path: '/imp',
             name: 'Imperial',
             component: Imperial
+        },
+        {
+            path: '/help',
+            name: 'Help',
+            component: Help
         },
         {
             path: '*',
