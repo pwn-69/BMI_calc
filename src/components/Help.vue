@@ -17,7 +17,7 @@
                 </b-collapse>
             </b-navbar>
             <b-card-group>
-                <b-card title="Chart" img-alt="Image">
+                <b-card img-alt="Image">
                     <b-img :src="image1" fluid thumbnail></b-img>
                         <b-card-text>
                         </b-card-text>
@@ -26,7 +26,7 @@
                         </template>
                 </b-card>
 
-                <b-card title="Men" img-alt="Image">
+                <b-card img-alt="Image">
                     <b-img :src="image2" fluid thumbnail></b-img>
                         <b-card-text>
                         </b-card-text>
@@ -35,7 +35,7 @@
                         </template>
                 </b-card>
 
-                <b-card title="Women" img-alt="Image">
+                <b-card img-alt="Image">
                     <b-img :src="image3" fluid thumbnail></b-img>
                         <b-card-text>
                         </b-card-text>
